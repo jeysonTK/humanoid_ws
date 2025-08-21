@@ -19,6 +19,9 @@ Navigate to your workspace and build the packages:
 ```bash
 cd ~/humanoid_ws
 colcon build --symlink-install
+```
+
+---
 
 ## Run
 
@@ -27,3 +30,6 @@ Before running any commands, source the workspace:
 ```bash
 source install/setup.bash
 ros2 launch humanoid_gazebo spawn_humanoid.launch.py
+```
+
+---
